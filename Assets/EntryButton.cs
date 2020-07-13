@@ -11,10 +11,14 @@ public class EntryButton : MonoBehaviour
     private void Awake()
     {
         _button = GetComponent<Button>();
+        _button.onClick.AddListener(delegate
+        {
+            OnButtonClick();
+        });
     }
 
     private void OnButtonClick()
     {
-
+        FileLogger.LogEntry(TemplateEntry);
     }
 }

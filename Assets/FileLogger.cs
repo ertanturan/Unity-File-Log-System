@@ -58,9 +58,9 @@ public static class FileLogger
         sb.Append("_");
         sb.Append(Guid.NewGuid().ToString());
 
-        _fileName = sb.ToString();
+        _fileName = sb + ".txt";
 
-        return sb + ".txt";
+        return _fileName;
     }
 
     public static void LogEntry(string entry)
