@@ -16,7 +16,6 @@ public static class FileLogger
     [RuntimeInitializeOnLoadMethod]
     private static void OnLoad()
     {
-        Debug.Log(FileName());
         CreateDirectory();
         CreateLogFile();
     }
@@ -27,19 +26,31 @@ public static class FileLogger
         {
             Directory.CreateDirectory(_staticPath);
         }
-
-
     }
 
     private static void CreateLogFile()
     {
-        Debug.Log(_staticPath);
+
         FileInfo temp = new FileInfo(Path.Combine(_staticPath, FileName()));
 
         temp.Create();
 
         Debug.Log(temp.Directory);
         Process.Start(temp.DirectoryName);
+
+    }
+
+    private static void CheckLogFile()
+    {
+        if (string.IsNullOrEmpty(_fileName))
+        {
+            _fileName = FileName();
+        }
+
+        if (!File.Exists(Path.Combine(_staticPath, _fileName)))
+        {
+            CreateLogFile();
+        }
 
     }
 
@@ -65,17 +76,13 @@ public static class FileLogger
 
     public static void LogEntry(string entry)
     {
-        //using (FileStream str = new FileStream(Path.Combine(_staticPath, _fileName), FileMode.Append)
-        //{
 
+        CheckLogFile();
 
-        //}
-
-
-
-        using (StreamWriter stream = new StreamWriter(Path.Combine(_staticPath, _fileName)))
+        using (StreamWriter stream = new StreamWriter(Path.Combine(_staticPath, _fileName), true))
         {
             stream.WriteLine(DateTime.Now + "------" + entry);
+
         }
 
     }
