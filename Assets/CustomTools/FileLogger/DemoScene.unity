@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 368598209}
   - component: {fileID: 368598208}
   - component: {fileID: 368598207}
-  - component: {fileID: 368598210}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -241,19 +240,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368598205}
   m_CullTransparentMesh: 0
---- !u!114 &368598210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368598205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c25dd3c507fc9f418bbc04a0715f7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TemplateEntry: Something
 --- !u!1 &595504233
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +252,6 @@ GameObject:
   - component: {fileID: 595504238}
   - component: {fileID: 595504237}
   - component: {fileID: 595504236}
-  - component: {fileID: 595504235}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -294,19 +279,6 @@ RectTransform:
   m_AnchoredPosition: {x: 797, y: 0}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &595504235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 595504233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c25dd3c507fc9f418bbc04a0715f7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TemplateEntry: Here
 --- !u!114 &595504236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1133,7 +1105,6 @@ GameObject:
   - component: {fileID: 1860205164}
   - component: {fileID: 1860205163}
   - component: {fileID: 1860205162}
-  - component: {fileID: 1860205161}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -1161,19 +1132,6 @@ RectTransform:
   m_AnchoredPosition: {x: 454, y: 0}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1860205161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860205159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c25dd3c507fc9f418bbc04a0715f7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TemplateEntry: Happened
 --- !u!114 &1860205162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1266,7 +1224,6 @@ GameObject:
   - component: {fileID: 1964675069}
   - component: {fileID: 1964675068}
   - component: {fileID: 1964675067}
-  - component: {fileID: 1964675066}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -1294,19 +1251,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1144, y: 0}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1964675066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964675064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c25dd3c507fc9f418bbc04a0715f7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TemplateEntry: This is good to know
 --- !u!114 &1964675067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,7 +1343,6 @@ GameObject:
   - component: {fileID: 2078955392}
   - component: {fileID: 2078955391}
   - component: {fileID: 2078955390}
-  - component: {fileID: 2078955389}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: Untagged
@@ -1427,19 +1370,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1473, y: 0}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &2078955389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078955387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c25dd3c507fc9f418bbc04a0715f7b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TemplateEntry: Another info
 --- !u!114 &2078955390
 MonoBehaviour:
   m_ObjectHideFlags: 0
