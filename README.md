@@ -12,3 +12,15 @@ That's it !.
 `Application.persistentDataPath \ Logs \ Your files here !`
 
 or Press `L` at runtime to show file directory.
+
+
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
+
+
+
+# ENJOY !
