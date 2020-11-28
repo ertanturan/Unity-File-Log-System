@@ -2,6 +2,10 @@
 
 Track everything happens in your program manually.
 
+## Base Features
+- Manual Logging : Logging inputs wanted by developer.
+- Auto-Logging   : Catches and logs errors and exceptions automatically.
+
 # How to use ?
 
 `FileLogManager.Log("Your message to log !");`
